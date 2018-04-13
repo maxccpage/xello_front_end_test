@@ -1,5 +1,7 @@
 # Xello Front End Challenge
 
+![](https://preview.ibb.co/b1sHP7/chrome_screenshot.png)
+
 ### Instructions
 
 *   1\. Clone the repo
