@@ -1,0 +1,307 @@
+// Bootstrap Sass Imports
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+.container {
+  margin-top: 2.5% !important;
+}
+
+body {
+  background-color: #fafafa !important;
+}
+
+.input-group {
+  width: 30% !important;
+}
+
+.card-body {
+  background-color: #fafafa !important;
+  padding: 0rem 1.25rem !important;
+}
+
+.year-9 {
+  border: 1px solid #e1e1e1;
+  background-color: white !important;
+  border-radius: 10px;
+  padding: 0rem 0rem !important;
+}
+
+.custom-select {
+  color: rgb(104, 103, 103) !important;
+  font-weight: 300;
+  font-size: 14px;
+  background: none !important;
+  background-color: white !important;
+}
+
+///Custom list items
+.list-group-item {
+  border: 1px dashed rgb(202, 201, 201) !important;
+  border-radius: 5px !important;
+  margin: 2.5px 0px;
+  background-color: white !important;
+  color: rgba(104, 103, 103, 0.609);
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.year-9-body {
+  margin: 2.5px 10px;
+}
+
+.year-9-body-green {
+  margin: 2.5px 10px;
+  padding: 0px;
+  border-left: 8px solid #82c320 !important;
+  border-right: 1px solid rgba(177, 175, 175, 0.609) !important;
+  border-top: 1px solid rgba(177, 175, 175, 0.609) !important;
+  border-bottom: 1px solid rgba(177, 175, 175, 0.609) !important;
+}
+
+.year-9-body-blue {
+  display: flex;
+  margin: 2.5px 10px;
+  padding: 0;
+  border: none !important;
+}
+
+.card {
+  border: none !important;
+}
+
+//Top Bar General CSS/SCSS
+.Top-Bar {
+  display: flex;
+  padding: 10px 0px;
+  align-items: center;
+
+  h4 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #484848;
+    letter-spacing: 0.75px;
+    margin-bottom: 0px;
+  }
+  .Credit-Badge {
+    background-color: #d13959;
+    width: 22.5px;
+    height: 22.5px;
+    font-size: 13px;
+    padding: 2px;
+    border-radius: 11.25px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin-left: 2.5%;
+  }
+  p {
+    margin-bottom: 0px;
+    color: rgb(104, 103, 103);
+    font-weight: 200;
+    font-size: 14px;
+    margin-left: 1%;
+    letter-spacing: 0.25px;
+  }
+  .Progress {
+    display: flex;
+    height: 15px;
+    border: 0.5px solid rgb(223, 223, 223);
+    border-radius: 2.5px;
+    width: 25%;
+    margin-left: 30%;
+    .Bar {
+      width: 50%;
+      background-color: #82c320;
+    }
+  }
+}
+
+//Class Bar General CSS/SCSS
+.Class-Bar {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px;
+  background-color: #f1f1f1;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  margin: 10px 0px;
+
+  p {
+    margin-bottom: 0px;
+    color: rgba(104, 103, 103, 0.918);
+    font-weight: 200;
+    font-size: 12.5px;
+    margin: 0% 1.5%;
+    letter-spacing: 0.45px;
+  }
+
+  .Credits {
+    border-left: 1px solid #e1e1e1;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    p {
+      padding-left: 20px;
+      margin-bottom: 0px;
+      color: rgba(104, 103, 103, 0.918);
+      font-weight: 200;
+      font-size: 12.5px;
+      letter-spacing: 0.45px;
+    }
+    .Credits-Input {
+      margin-left: 5%;
+      align-items: center;
+      display: flex;
+      .Credits-Check {
+        align-self: center;
+        display: flex;
+        margin-right: 15%;
+        p {
+          margin: 0% 20%;
+          padding: 0;
+          align-self: center;
+        }
+      }
+      p {
+        align-self: center;
+        margin-left: 0%;
+      }
+    }
+  }
+}
+
+//Course Selection General CSS/SCSS
+.Course-Selection {
+  justify-content: center;
+  background-color: #fafafa !important;
+  margin-top: 2.5%;
+  .Card-Header {
+    padding-top: 1rem;
+    padding-bottom: 0.75rem;
+    h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: rgb(72, 72, 72);
+      margin-bottom: 0px;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+    p {
+      margin-bottom: 0px;
+      color: rgba(104, 103, 103, 0.918);
+      font-weight: 200;
+      font-size: 12.5px;
+      letter-spacing: 0.45px;
+    }
+  }
+}
+
+.Selected-Courses {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 5px 10px;
+
+  h6 {
+    font-size: 13px;
+    margin: 0px;
+    font-weight: 200;
+    color: #484848;
+    padding: 0px;
+    padding-bottom: 2.5px;
+  }
+
+  .SC-Bottom {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      font-size: 11px;
+      padding: 0px;
+      margin: 0px;
+    }
+    span {
+      color: #484848;
+      padding: 0px;
+      margin: 0px;
+    }
+  }
+}
+
+.Year-9-Header {
+  background-color: #f1f1f1;
+  border-top-left-radius: 10px;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.25rem !important;
+  margin-bottom: 0.5rem;
+  border-top-right-radius: 10px;
+}
+
+.Plus {
+  width: 15%;
+  background-color: #26afdf;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: white;
+}
+
+.Plus-Courses {
+  width: 85%;
+  border-top: 1px solid rgba(177, 175, 175, 0.609);
+  border-right: 1px solid rgba(177, 175, 175, 0.609);
+  border-bottom: 1px solid rgba(177, 175, 175, 0.609);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 10px;
+  h6 {
+    font-size: 13px;
+    margin: 0px;
+    font-weight: 200;
+    color: #26afdf;
+    padding: 0px;
+  }
+  p {
+    font-size: 11px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+// Ready to submit
+.Ready-Container {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #26afdf;
+  padding: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.Ready {
+  border: 1px solid #007baf;
+  border-radius: 5px;
+  width: 70%;
+  button {
+    width: 98.5%;
+    margin: 1px;
+    background-color: #007baf;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 0.5;
+  }
+}
